@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course: React - The Complete Guide for Beginners</title>
+    <link rel="stylesheet" href="course-styles.css">
+</head>
+
+<body>
+    <!-- Header (Matches your project index page) -->
+    <header>
+        <div class="course-header"> <!-- header content -->
+            <div class="logo">
+                <img src="images/logo.png" alt="InspireAcademia Logo">
+                <span class="site-name">InspireAcademia</span>
+            </div>
+            <p>React - The Complete Guide for Beginners</p>
+        </div>    
+    </header>
+
+    <!-- Course Content -->
+    <div class="course-content container">
+        <div class="video-section">
+            <video id="course-video" width="600" height="340" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="course-details">
+            <h2>Course Contents</h2>
+            <p>Total Duration: 1hr 35min</p>
+            <ul>
+                <li><a href="video1.mp4" onclick="loadVideo('video1.mp4'); return false;">1. Introduction to React (5 min)</a></li>
+                <li><a href="video2.mp4" onclick="loadVideo('video2.mp4'); return false;">2. Setting Up Your React Environment (6 min)</a></li>
+                <li><a href="video3.mp4" onclick="loadVideo('video3.mp4'); return false;">3. React Components Overview (6 min)</a></li>
+                <li><a href="video4.mp4" onclick="loadVideo('video4.mp4'); return false;">4. JSX and Rendering Elements (5 min)</a></li>
+                <li><a href="video5.mp4" onclick="loadVideo('video5.mp4'); return false;">5. Props and State Management (7 min)</a></li>
+                <li><a href="video6.mp4" onclick="loadVideo('video6.mp4'); return false;">6. Handling Events in React (5 min)</a></li>
+                <li><a href="video7.mp4" onclick="loadVideo('video7.mp4'); return false;">7. Conditional Rendering (6 min)</a></li>
+                <li><a href="video8.mp4" onclick="loadVideo('video8.mp4'); return false;">8. Lists and Keys (5 min)</a></li>
+                <li><a href="video9.mp4" onclick="loadVideo('video9.mp4'); return false;">9. Forms and Controlled Components (7 min)</a></li>
+                <li><a href="video10.mp4" onclick="loadVideo('video10.mp4'); return false;">10. Lifting State Up (6 min)</a></li>
+                <li><a href="video11.mp4" onclick="loadVideo('video11.mp4'); return false;">11. Composition vs Inheritance (6 min)</a></li>
+                <li><a href="video12.mp4" onclick="loadVideo('video12.mp4'); return false;">12. React Lifecycle Methods (6 min)</a></li>
+                <li><a href="video13.mp4" onclick="loadVideo('video13.mp4'); return false;">13. Hooks Introduction (7 min)</a></li>
+                <li><a href="video14.mp4" onclick="loadVideo('video14.mp4'); return false;">14. useState Hook (5 min)</a></li>
+                <li><a href="video15.mp4" onclick="loadVideo('video15.mp4'); return false;">15. useEffect Hook (6 min)</a></li>
+                <li><a href="video16.mp4" onclick="loadVideo('video16.mp4'); return false;">16. Custom Hooks (5 min)</a></li>
+                <li><a href="video17.mp4" onclick="loadVideo('video17.mp4'); return false;">17. Context API (6 min)</a></li>
+                <li><a href="video18.mp4" onclick="loadVideo('video18.mp4'); return false;">18. Testing React Components (6 min)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function loadVideo(videoSrc) {
+            const videoPlayer = document.getElementById('course-video');
+            videoPlayer.src = videoSrc;
+            videoPlayer.play();
+        }
+    </script>
+
+</body>
+</html>

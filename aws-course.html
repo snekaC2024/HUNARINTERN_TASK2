@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course: AWS - The Complete Guide for Beginners</title>
+    <link rel="stylesheet" href="course-styles.css">
+</head>
+
+<body>
+    <!-- Header (Matches your project index page) -->
+    <header>
+        <div class="course-header"> <!-- header content -->
+            <div class="logo">
+                <img src="images/logo.png" alt="InspireAcademia Logo">
+                <span class="site-name">InspireAcademia</span>
+            </div>
+            <p>AWS - The Complete Guide for Beginners</p>
+        </div>    
+    </header>
+
+    <!-- Course Content -->
+    <div class="course-content container">
+        <div class="video-section">
+            <video id="course-video" width="600" height="340" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="course-details">
+            <h2>Course Contents</h2>
+            <p>Total Duration: 50min</p>
+            <ul>
+                <li><a href="video1.mp4" onclick="loadVideo('video1.mp4'); return false;">1. Introduction to AWS (7 min)</a></li>
+                <li><a href="video2.mp4" onclick="loadVideo('video2.mp4'); return false;">2. AWS Core Services Overview (8 min)</a></li>
+                <li><a href="video3.mp4" onclick="loadVideo('video3.mp4'); return false;">3. Setting Up an AWS Account (6 min)</a></li>
+                <li><a href="video4.mp4" onclick="loadVideo('video4.mp4'); return false;">4. Introduction to EC2 (7 min)</a></li>
+                <li><a href="video5.mp4" onclick="loadVideo('video5.mp4'); return false;">5. Using S3 for Storage (7 min)</a></li>
+                <li><a href="video6.mp4" onclick="loadVideo('video6.mp4'); return false;">6. IAM and Security Best Practices (6 min)</a></li>
+                <li><a href="video7.mp4" onclick="loadVideo('video7.mp4'); return false;">7. Deploying a Sample Application (5 min)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function loadVideo(videoSrc) {
+            const videoPlayer = document.getElementById('course-video');
+            videoPlayer.src = videoSrc;
+            videoPlayer.play();
+        }
+    </script>
+
+</body>
+</html>

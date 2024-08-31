@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course: JavaScript - The Complete Guide for Beginners</title>
+    <link rel="stylesheet" href="course-styles.css">
+</head>
+
+<body>
+    <!-- Header (Matches your project index page) -->
+    <header>
+        <div class="course-header"> <!-- header content -->
+            <div class="logo">
+                <img src="images/logo.png" alt="InspireAcademia Logo">
+                <span class="site-name">InspireAcademia</span>
+            </div>
+            <p>JavaScript - The Complete Guide for Beginners</p>
+        </div>    
+    </header>
+
+    <!-- Course Content -->
+    <div class="course-content container">
+        <div class="video-section">
+            <video id="course-video" width="600" height="340" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="course-details">
+            <h2>Course Contents</h2>
+            <p>Total Duration: 3hr 12min</p>
+            <ul>
+                <li><a href="video1.mp4" onclick="loadVideo('video1.mp4'); return false;">1. Introduction to JavaScript (25 min)</a></li>
+                <li><a href="video2.mp4" onclick="loadVideo('video2.mp4'); return false;">2. Setting Up Your Environment (18 min)</a></li>
+                <li><a href="video3.mp4" onclick="loadVideo('video3.mp4'); return false;">3. JavaScript Syntax amd Basics (16 min)</a></li>
+                <li><a href="video4.mp4" onclick="loadVideo('video4.mp4'); return false;">4. Variables and Data types (14 min)</a></li>
+                <li><a href="video5.mp4" onclick="loadVideo('video5.mp4'); return false;">5. Control Structures (20 min)</a></li>
+                <li><a href="video6.mp4" onclick="loadVideo('video6.mp4'); return false;">6. Loops and iteration (12 min)</a></li>
+                <li><a href="video7.mp4" onclick="loadVideo('video7.mp4'); return false;">7. Functions: Definitions and Scope (17 min)</a></li>
+                <li><a href="video8.mp4" onclick="loadVideo('video8.mp4'); return false;">8. Objects and Arrays (15 min)</a></li>
+                <li><a href="video9.mp4" onclick="loadVideo('video9.mp4'); return false;">9. DOM Manipulation (18 min)</a></li>
+                <li><a href="video10.mp4" onclick="loadVideo('video10.mp4'); return false;">10. Event Handling in JavaScript (13 min)</a></li>
+                <li><a href="video9.mp4" onclick="loadVideo('video11.mp4'); return false;">11. Asynchronous JavaScript (18 min)</a></li>
+                <li><a href="video9.mp4" onclick="loadVideo('video12.mp4'); return false;">12. Building a JavaScript Project (16 min)</a></li>
+           
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function loadVideo(videoSrc) {
+            const videoPlayer = document.getElementById('course-video');
+            videoPlayer.src = videoSrc;
+            videoPlayer.play();
+        }
+    </script>
+
+</body>
+</html>

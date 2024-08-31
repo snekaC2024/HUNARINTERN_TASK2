@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course: AI and ML - The Complete Guide for Beginners</title>
+    <link rel="stylesheet" href="course-styles.css">
+</head>
+
+<body>
+    <!-- Header (Matches your project index page) -->
+    <header>
+        <div class="course-header"> <!-- header content -->
+            <div class="logo">
+                <img src="images/logo.png" alt="InspireAcademia Logo">
+                <span class="site-name">InspireAcademia</span>
+            </div>
+            <p>AI and ML - The Complete Guide for Beginners</p>
+        </div>    
+    </header>
+
+    <!-- Course Content -->
+    <div class="course-content container">
+        <div class="video-section">
+            <video id="course-video" width="600" height="340" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="course-details">
+            <h2>Course Contents</h2>
+            <p>Total Duration: 3hr 25min</p>
+            <ul>
+                <li><a href="video1.mp4" onclick="loadVideo('video1.mp4'); return false;">1. Introduction to AI and ML (10 min)</a></li>
+                <li><a href="video2.mp4" onclick="loadVideo('video2.mp4'); return false;">2. Understanding Machine Learning (12 min)</a></li>
+                <li><a href="video3.mp4" onclick="loadVideo('video3.mp4'); return false;">3. Key Concepts in AI (11 min)</a></li>
+                <li><a href="video4.mp4" onclick="loadVideo('video4.mp4'); return false;">4. Data Preprocessing Techniques (13 min)</a></li>
+                <li><a href="video5.mp4" onclick="loadVideo('video5.mp4'); return false;">5. Supervised Learning Overview (12 min)</a></li>
+                <li><a href="video6.mp4" onclick="loadVideo('video6.mp4'); return false;">6. Classification Algorithms (14 min)</a></li>
+                <li><a href="video7.mp4" onclick="loadVideo('video7.mp4'); return false;">7. Regression Algorithms (15 min)</a></li>
+                <li><a href="video8.mp4" onclick="loadVideo('video8.mp4'); return false;">8. Unsupervised Learning Overview (13 min)</a></li>
+                <li><a href="video9.mp4" onclick="loadVideo('video9.mp4'); return false;">9. Clustering Algorithms (14 min)</a></li>
+                <li><a href="video10.mp4" onclick="loadVideo('video10.mp4'); return false;">10. Dimensionality Reduction (12 min)</a></li>
+                <li><a href="video11.mp4" onclick="loadVideo('video11.mp4'); return false;">11. Introduction to Neural Networks (15 min)</a></li>
+                <li><a href="video12.mp4" onclick="loadVideo('video12.mp4'); return false;">12. Training Neural Networks (13 min)</a></li>
+                <li><a href="video13.mp4" onclick="loadVideo('video13.mp4'); return false;">13. Deep Learning Overview (14 min)</a></li>
+                <li><a href="video14.mp4" onclick="loadVideo('video14.mp4'); return false;">14. Convolutional Neural Networks (15 min)</a></li>
+                <li><a href="video15.mp4" onclick="loadVideo('video15.mp4'); return false;">15. Recurrent Neural Networks (14 min)</a></li>
+                <li><a href="video16.mp4" onclick="loadVideo('video16.mp4'); return false;">16. Natural Language Processing (13 min)</a></li>
+                <li><a href="video17.mp4" onclick="loadVideo('video17.mp4'); return false;">17. Model Evaluation Metrics (12 min)</a></li>
+                <li><a href="video18.mp4" onclick="loadVideo('video18.mp4'); return false;">18. Hyperparameter Tuning (14 min)</a></li>
+                <li><a href="video19.mp4" onclick="loadVideo('video19.mp4'); return false;">19. Real-World Applications of AI (14 min)</a></li>
+                <li><a href="video20.mp4" onclick="loadVideo('video20.mp4'); return false;">20. Future Trends in AI and ML (14 min)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function loadVideo(videoSrc) {
+            const videoPlayer = document.getElementById('course-video');
+            videoPlayer.src = videoSrc;
+            videoPlayer.play();
+        }
+    </script>
+
+</body>
+</html>

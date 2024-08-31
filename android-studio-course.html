@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course: Android Studio - The Complete Guide for Beginners</title>
+    <link rel="stylesheet" href="course-styles.css">
+</head>
+
+<body>
+    <!-- Header (Matches your project index page) -->
+    <header>
+        <div class="course-header"> <!-- header content -->
+            <div class="logo">
+                <img src="images/logo.png" alt="InspireAcademia Logo">
+                <span class="site-name">InspireAcademia</span>
+            </div>
+            <p>Android Studio - The Complete Guide for Beginners</p>
+        </div>    
+    </header>
+
+    <!-- Course Content -->
+    <div class="course-content container">
+        <div class="video-section">
+            <video id="course-video" width="600" height="340" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="course-details">
+            <h2>Course Contents</h2>
+            <p>Total Duration: 3hr 20min</p>
+            <ul>
+                <li><a href="video1.mp4" onclick="loadVideo('video1.mp4'); return false;">1. Introduction to Android Studio (12 min)</a></li>
+                <li><a href="video2.mp4" onclick="loadVideo('video2.mp4'); return false;">2. Setting Up the Development Environment (15 min)</a></li>
+                <li><a href="video3.mp4" onclick="loadVideo('video3.mp4'); return false;">3. Android Studio Basics and UI (14 min)</a></li>
+                <li><a href="video4.mp4" onclick="loadVideo('video4.mp4'); return false;">4. Understanding Android Project Structure (13 min)</a></li>
+                <li><a href="video5.mp4" onclick="loadVideo('video5.mp4'); return false;">5. Creating and Managing Activities (14 min)</a></li>
+                <li><a href="video6.mp4" onclick="loadVideo('video6.mp4'); return false;">6. Layouts and UI Design (16 min)</a></li>
+                <li><a href="video7.mp4" onclick="loadVideo('video7.mp4'); return false;">7. Working with Fragments (13 min)</a></li>
+                <li><a href="video8.mp4" onclick="loadVideo('video8.mp4'); return false;">8. Handling User Input (12 min)</a></li>
+                <li><a href="video9.mp4" onclick="loadVideo('video9.mp4'); return false;">9. Introduction to Data Storage (14 min)</a></li>
+                <li><a href="video10.mp4" onclick="loadVideo('video10.mp4'); return false;">10. Using SharedPreferences (12 min)</a></li>
+                <li><a href="video11.mp4" onclick="loadVideo('video11.mp4'); return false;">11. Working with SQLite Databases (15 min)</a></li>
+                <li><a href="video12.mp4" onclick="loadVideo('video12.mp4'); return false;">12. Networking and APIs (16 min)</a></li>
+                <li><a href="video13.mp4" onclick="loadVideo('video13.mp4'); return false;">13. Background Tasks and Services (14 min)</a></li>
+                <li><a href="video14.mp4" onclick="loadVideo('video14.mp4'); return false;">14. Debugging and Testing Your App (15 min)</a></li>
+                <li><a href="video15.mp4" onclick="loadVideo('video15.mp4'); return false;">15. Publishing Your App to Google Play (15 min)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function loadVideo(videoSrc) {
+            const videoPlayer = document.getElementById('course-video');
+            videoPlayer.src = videoSrc;
+            videoPlayer.play();
+        }
+    </script>
+
+</body>
+</html>

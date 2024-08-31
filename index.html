@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireAcademia - Home</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+         <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/16811/16811637.png" alt="InspireAcademia Logo">
+            <span>InspireAcademia</span>
+        </div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul id="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#review">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="signin.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+     <div class="hero-content">
+        <div class="hero-image">
+            <img src="images/hero-image.jpg" alt="InspireAcademia" class="hero-img">
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to InspireAcademia</h1>
+            <p>Unlock your potential with our top-rated courses</p>
+            <a href="signin.html" class="button">Login</a>
+        </div>
+     </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="container">
+            <h1>Welcome to InspireAcademia</h1>
+            <p>At InspireAcademia, we believe in empowering learners by providing them with high-quality, accessible, and engaging online courses. Our platform is designed to inspire, educate, and support students of all levels as they pursue their academic and professional goals.</p>
+            
+            <h2>Our Mission</h2>
+            <p>Our mission is to make education accessible to everyone, regardless of their location or background. We strive to create a learning environment that fosters curiosity, innovation, and personal growth.</p>
+            
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Excellence:</strong> We are committed to delivering top-notch content created by industry experts.</li>
+                <li><strong>Accessibility:</strong> We believe that education should be available to everyone, anytime, and anywhere.</li>
+                <li><strong>Innovation:</strong> We embrace new technologies and methods to enhance the learning experience.</li>
+                <li><strong>Community:</strong> We foster a supportive and inclusive learning community where students can collaborate and grow together.</li>
+            </ul>
+
+            <p>Whether you're looking to advance your career, learn a new skill, or simply explore a new subject, InspireAcademia is here to guide you on your educational journey. Let's learn and grow together!</p>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section id="courses" class="featured-courses">
+        <h2>Featured Courses</h2>
+        <div class="course-grid">
+           <div class="course-card"> 
+                <img src="images/web-development.jpg" alt="Web Development" class="course-image">
+                <h3>Web Development</h3>
+                <p>Learn the fundamentals of web development and create stunning websites.</p>
+           </div>
+           
+           <div class="course-card">
+                <img src="images/data-science.jpg" alt="Data Science" class="course-image">
+                <h3>Data Science</h3>
+                <p>Master data analysis, visualization, and machine learning techniques.</p>
+           </div>
+           
+           <div class="course-card">
+                <img src="images/digital-marketing.jpg" alt="Digital Marketing" class="course-image">
+                <h3>Digital Marketing</h3>
+                <p>Understand digital marketing strategies and grow your business online.</p>
+           </div>
+           
+           <div class="course-card">
+                <img src="images/graphic-design.jpg" alt="Graphic Design" class="course-image">
+                <h3>Graphic Design</h3>
+                <p>Design visually stunning graphics and improve your creativity.</p> 
+           </div>
+           
+           <div class="course-card">
+                <img src="images/ai.jpg" alt="Artificial Intelligence" class="course-image">
+                <h3>Artificial Intelligence</h3>
+                <p>Dive into AI technologies and build intelligent systems.</p>
+           </div>
+           
+           <div class="course-card">
+                <img src="images/cloud-computing.jpg" alt="Cloud Computing" class="course-image">
+                <h3>Cloud Computing</h3>
+                <p>Learn how to deploy and manage cloud services efficiently.</p>
+           </div>
+           
+           <div class="course-card">           
+                <img src="images/mobile-app-development.jpg" alt="Mobile App Development" class="course-image">
+                <h3>Mobile App Development</h3>
+                <p>Create innovative mobile apps for Android and iOS platforms.</p>
+           </div>
+           
+           <div class="course-card">
+                <img src="images/blockchain.jpg" alt="Blockchain Technology" class="course-image">
+                <h3>Blockchain Technology</h3>
+                <p>Understand blockchain and its applications in various industries.</p>
+           </div>
+           
+           <div class="course-card">
+                <img src="images/software-testing.jpg" alt="Software Testing" class="course-image">
+                <h3>Software Testing</h3>
+                <p>Ensure software quality with thorough testing methodologies.</p>
+           </div>
+        </div>
+    </section>
+
+    <section class="high-rated-courses">
+        <h2>Get High Rated Courses</h2>
+        <div class="courses-containers">
+            <div class="course-cards">
+                <a href="html-css-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/html-css-logo.png" alt="HTML and CSS Logo">
+                <h3>HTML & CSS</h3>
+                <p>10 videos</p>
+                <p>★★★★★</p>
+            </div>
+            <div class="course-cards">
+                <a href="js-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/javascript-logo.png" alt="JavaScript Logo">
+                <h3>JavaScript</h3>
+                <p>12 videos</p>
+                <p>★★★★☆</p>
+            </div>
+            <div class="course-cards">
+                <a href="photoshop-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/photoshop-logo.png" alt="Photoshop Logo">
+                <h3>Photoshop</h3>
+                <p>8 videos</p>
+                <p>★★★★★</p>
+            </div>
+            <div class="course-cards">
+                <a href="figma-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/figma-logo.png" alt="Figma Logo">
+                <h3>Figma</h3>
+                <p>9 videos</p>
+                <p>★★★★☆</p>
+            </div>
+            <div class="course-cards">
+                <a href="android-studio-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/android-studio-logo.png" alt="Android Studio Logo">
+                <h3>Android Studio</h3>
+                <p>15 videos</p>
+                <p>★★★★★</p>
+            </div>
+            <div class="course-cards">
+                <a href="ai-ml-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/ai-ml-logo.png" alt="Ai and Ml Logo">
+                <h3>AI & ML</h3>
+                <p>20 videos</p>
+                <p>★★★★★</p>
+            </div>
+            <div class="course-cards">
+                <a href="react-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/react-logo.png" alt="React Logo">
+                <h3>React</h3>
+                <p>18 videos</p>
+                <p>★★★★☆</p>
+            </div>
+            <div class="course-cards">
+                <a href="aws-course.html" class="icon">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <img src="images/aws-logo.png" alt="AWS Logo">
+                <h3>AWS</h3>
+                <p>7 videos</p>
+                <p>★★★★☆</p>
+            </div>
+        </div>
+        <button class="explore-more">Explore More</button>
+    </section>
+    
+
+    <!-- Benefits of Joining -->
+    <section class="benefits">
+        <h2>Why Join Inspire Academia</h2><br>
+
+        <div class="benefits-container">
+            <!-- Benefit 1: Course Videos -->
+            <div class="benefit">
+                <img src="images/course-video.png" alt="Course Videos">
+                <div class="benefit-name">Course Videos</div>
+                <div class="sessions">2k+ Videos</div>
+            </div>
+    
+            <!-- Benefit 2: Certified Courses -->
+            <div class="benefit">
+                <img src="images/certified-courses.png" alt="Certified Courses">
+                <div class="benefit-name">Certified Courses</div>
+                <div class="sessions">500+ Courses</div>
+            </div>
+    
+            <!-- Benefit 3: Expert Instructors -->
+            <div class="benefit">
+                <img src="images/expert-instructors.png" alt="Expert Instructors">
+                <div class="benefit-name">Expert Instructors</div>
+                <div class="sessions">200+ Experts</div>
+            </div>
+    
+            <!-- Benefit 4: Career Guidance -->
+            <div class="benefit">
+                <img src="images/career-guidance.png" alt="Career Guidance">
+                <div class="benefit-name">Career Guidance</div>
+                <div class="sessions">300+ Guides</div>
+            </div>
+    
+            <!-- Benefit 5: Student Support -->
+            <div class="benefit">
+                <img src="images/student-support.png" alt="Student Support">
+                <div class="benefit-name">Student Support</div>
+                <div class="sessions">24/7 Support</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="review" class="tc">
+        <h2>What Our Students Say</h2>
+         <div class="testimonial-container">
+          <!-- Testimonial 1 -->
+          <div class="testimonial">
+              <div class="student-name">Priya B</div>
+              <div class="rating">★★★★★</div>
+              <div class="review">"This course was amazing! I learned so much."</div>
+          </div>
+  
+          <!-- Testimonial 2 -->
+          <div class="testimonial">
+              <div class="student-name">Sindhu R</div>
+              <div class="rating">★★★★☆</div>
+              <div class="review">"Great content, very informative and well-organized."</div>
+          </div>
+  
+          <!-- Testimonial 3 -->
+          <div class="testimonial">
+              <div class="student-name">Ragav C</div>
+              <div class="rating">★★★★★</div>
+              <div class="review">"The best online course I have ever taken!"</div>
+          </div>
+  
+          <!-- Testimonial 4 -->
+          <div class="testimonial">
+              <div class="student-name">Deepa V</div>
+              <div class="rating">★★★★☆</div>
+              <div class="review">"Very helpful and engaging."</div>
+          </div>
+  
+          <!-- Testimonial 5 -->
+          <div class="testimonial">
+              <div class="student-name">Keerthi G</div>
+              <div class="rating">★★★★★</div>
+              <div class="review">"I would highly recommend this to anyone looking to improve their skills."</div>
+          </div>
+  
+          <!-- Testimonial 6 -->
+          <div class="testimonial">
+              <div class="student-name">Varun S</div>
+              <div class="rating">★★★★☆</div>
+              <div class="review">"A solid course with valuable insights."</div>
+          </div>
+      </div>
+     </section> 
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="f-container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>About InspireAcademia</h3>
+                    <p>InspireAcademia is dedicated to providing high-quality online education accessible to everyone. Join us on our mission to make learning an enriching and lifelong journey.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#review">Reviews</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div id="contact" class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>Email: support@inspireacademia.com</p>
+                    <p>Phone: +91 9876543210</p>
+                    <p>Address: 123 Learning Lane, Education City, India</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 InspireAcademia. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(rgba(188, 207, 221, 0.862), rgba(57, 110, 145, 0.3)),url(bg-image.jpg) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #0c0c0c; /* White text color */
+}
+
+/* Header Styles */
+header {
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start; /* Aligns logo to the top left corner */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(to left, #ec0b0b, #6f21d5); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 10px; /* Optional: Adds some space between the logo and text */
+}
+
+/* Container Styles */
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 20px;  /* Adjust padding to make the container smaller */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 320px; /* Adjust max-width for smaller container */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Styles */
+main {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 1.8em;  /* Adjusted heading size */
+    margin-bottom: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input Group Styles */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.701); /* Slightly transparent background for input group */
+    padding: 8px;
+}
+
+.input-group img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input-group input[type="text"], .input-group input[type="email"], .input-group input[type="password"] {
+    width: 100%;
+    padding: 8px;  /* Reduced padding for inputs */
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #000; /* Black text for inputs */
+    background-color: transparent;
+    outline: none; /* Remove outline */
+}
+
+.input-group input::placeholder {
+    color: #b3b3b3; /* Light grey for placeholder text */
+}
+
+
+/* Button Styles */
+form button {
+    padding: 10px;
+    background-color: #0056b3; /* Blue color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #003d82; /* Darker blue on hover */
+}
+
+/* Text and Link Styles */
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p a {
+    color: #ff1c1c; 
+    font-weight: 700;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
